@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+    
+}
+body {
+    overflow-x: hidden;
+    
+
+}
+section{
+    overflow: hidden;
+}
+
+.be img{
+    
+    width: 100%;
+    height: 90vh;
+    
+   
+}
+.image{
+    background:rgba(0, 0, 0, 0.7) url(img/contact-4.png) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header{
+    background:transparent ;
+    
+    padding: 10px 0px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.header input{
+    background: transparent;
+    border: 1px solid rgb(245, 245, 245);
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: rgb(14, 217, 253);
+    
+}
+
+.navbar-toggler{
+    color: white;
+}
+.header ul ul a{
+    color: black;
+}
+.header ul a:hover{
+    border-bottom: 1px solid whitesmoke;
+    color: rgb(149, 149, 149);
+}
+.carousel-item {
+    background: black;
+    
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.4;
+}
+.mamber img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption {
+    margin-bottom: 100px;
+
+}
+.carousel-caption h5{
+    color: #7EC8E3;
+    font-size: 30px;
+}
+.sell{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in-out;
+    z-index: 10000;
+    padding: 0;
+   
+
+}
+.dil .m{
+    transition: all 0.3s linear;
+}
+.dil .m:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s linear;
+}
+.yes{
+    position: relative;
+    overflow: hidden;
+
+}
+.no{
+    position:absolute ;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(10,186,181);
+    padding: 30px 20px;
+    transition: all 0.5s linear;
+
+   
+}
+.yes:hover .no{
+    top: 0%;
+    transition: all 0.3s linear;
+}
+.footer-info a{
+    list-style: none;
+    text-decoration: none;
+}
+.he-1{
+    
+    background:rgba(0, 0, 0, 0.7) url(img/lens.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   background-blend-mode: darken;
+}
+.he-1{
+    /* background-color: rgb(20, 20, 20); */
+}
+
+.he p, a{
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
+.he a:hover{
+    text-decoration: underline;
+    color: rgb(177, 173, 173);
+    
+
+}
+.he h1,h3,h5{
+    color: red;
+}
+.he .bi-facebook,.bi-instagram,.bi-linkedin,.bi-twitter{
+    color: white;
+    margin-right: 10px;
+    padding: 5px 10px ;
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    
+    
+    
+    
+    
+}
+
+.he .bi-facebook:hover{
+   color: blue;
+   background: white;
+   
+}
+.he .bi-instagram:hover{
+   color: rgb(195, 0, 255);
+   background: white;
+}
+.he .bi-linkedin:hover{
+   color: blue;
+   background: white;
+}
+.he .bi-twitter:hover{
+   color: rgb(1, 213, 241);
+   background: white;
+}
+.my p{
+    line-height: 2px;
+}
+
+
+
+
+
+
+    
+    
